@@ -27,7 +27,7 @@
     <p>Det här är mitt portfolio eller min sida där jag har blandade saker som jag gjort och nu visar upp.</p>
     <h2><a href="">Saker från <strong>Khan Academy</strong></a></h2>
     <h3>Tex.<a href="https://www.khanacademy.org/computer-programming/spin-off-of-project-make-it-rain/6666620681814016">Make it Rain</a></h3>
-    <p>Tryck på <em>animeringen</em> och det kommer där en <em>regndroppe.</em> Tryck på <strong>restart</strong> och animeringen börjar om</p>
+    <p>Tryck på <em>animeringen</em> och det kommer där en <em>regndroppe.</em> Tryck på <strong>restart</strong> och animeringen börjar om.</p>
     <script src="https://www.khanacademy.org/computer-programming/spin-off-of-project-make-it-rain/6666620681814016/embed.js?editor=yes&buttons=yes&author=yes&embed=yes"></script>
     <p>Made using: <a href="http://www.khanacademy.org/computer-programming">Khan Academy Computer Science</a></p>
     
