@@ -63,6 +63,7 @@ body {
       font-family:"copperplate", "b612", "bai jamjuree",  "calibri";
   background: rgb(130, 142, 217);
   padding-left:600px;
+   opacity:0.1;
     }
   p.Film {
   font-family:"copperplate", "calibri";
@@ -112,16 +113,6 @@ body {
   padding-bottom:15px;
   padding-left:0px;
   padding-right:15px;
- }
- .lista {
- position:-webkit-sticky;
-  position:sticky;
-  top: 0;
-  margin-left:1000;
-  padding-right:5px;
- }
- #musikh4 {
- margin-bottom:16px;
  }
  #DMI2 {
  text-align:center;
