@@ -9,9 +9,10 @@ body {
     #Fotter {
     clear:both;
     background-color:rgb(41, 63, 186);
-    border:5px solid rgb(127, 171, 165);
+    border:4px solid rgb(127, 171, 165);
     margin-top:100px;
     text-align:left;
+    padding-left:7px;
     }
     a {
     text-decoration:none;
@@ -66,13 +67,6 @@ body {
 
     p {
     font-family:"aleo","alegreya","alike", "calibri", sans-serif;
-    }
-    #Fotter {
-    clear:both;
-    background-color:rgb(41, 63, 186);
-    border:5px solid rgb(127, 171, 165);
-    margin-top:100px;
-    text-align:center;
     }
     a {
     text-decoration:none;
