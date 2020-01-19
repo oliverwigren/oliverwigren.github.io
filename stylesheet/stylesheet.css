@@ -27,6 +27,9 @@ body {
     margin-bottom:20px;
     margin-left:10px;
     }
+.Filmtext p{
+color:black;
+}
     #Fotter {
     clear:both;
     background-color:rgb(41, 63, 186);
