@@ -85,12 +85,6 @@ color:black;
    color:rgb(59, 70, 179);
    }
 .DWF-länk {
-padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
   height:70px;
 }
 .DWF-länk:hover {
@@ -98,6 +92,8 @@ opacity: 0.7;
 }
 #storDWF {
 height:600px;
+position:absolute;
+z-index:1;
 }
 .navbar input[type=text] {
   float: right;
