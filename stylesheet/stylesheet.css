@@ -51,13 +51,13 @@ color:black;
       margin-top:25px;
     color: rgb(33, 59, 207);
       font-family:"copperplate", "b612", "bai jamjuree",  "calibri";
-  /*padding-left:600px;*/
-   opacity:0.9;
+  position:absolute;
     }
    .navbar {
    background-color:rgb(127, 164, 171);
    overflow:hidden;
      z-index:200;
+        opacity:0.9;
      border-bottom:1px solid rgb(29, 75, 173);
           position:-webkit-sticky;
      position:sticky;
