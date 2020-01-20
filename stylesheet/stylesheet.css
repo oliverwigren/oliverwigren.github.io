@@ -49,7 +49,6 @@ color:black;
      margin-left:600px;
       font-family:"algerian";
       text-align:center;
-      margin-top:25px;
     color: rgb(33, 59, 207);
       font-family:"copperplate", "b612", "bai jamjuree",  "calibri";
   position:absolute;
@@ -85,6 +84,17 @@ color:black;
    background-color:rgb(108, 157, 166);
    color:rgb(59, 70, 179);
    }
+.DWF-länk {
+padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.DWF-länk:hover {
+opacity: 0.7;
+}
 #storDWF {
 height:600px;
 }
