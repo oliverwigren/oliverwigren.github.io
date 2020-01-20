@@ -85,6 +85,9 @@ color:black;
    background-color:rgb(108, 157, 166);
    color:rgb(59, 70, 179);
    }
+#storDWF {
+height:600px;
+}
 .navbar input[type=text] {
   float: right;
   padding: 6px;
