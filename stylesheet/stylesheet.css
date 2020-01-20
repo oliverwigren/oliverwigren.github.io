@@ -45,25 +45,23 @@ color:black;
     text-decoration:none;
     }
  h1 {
-     position:-webkit-sticky;
-     position:sticky;
-     top:0;
       font-weight:150;
       font-family:"algerian";
-      text-align:;center
+      text-align:center;
       margin-top:25px;
     color: rgb(33, 59, 207);
       font-family:"copperplate", "b612", "bai jamjuree",  "calibri";
-  background: rgb(130, 142, 217);
-  padding-left:600px;
+  /*padding-left:600px;*/
    opacity:0.9;
-   z-index:200;
     }
    .navbar {
    background-color:rgb(127, 164, 171);
    overflow:hidden;
-     z-index:199;
+     z-index:200;
      border-bottom:1px solid rgb(29, 75, 173);
+          position:-webkit-sticky;
+     position:sticky;
+     top:0;
    }
    .navbar a {
      float:left;
