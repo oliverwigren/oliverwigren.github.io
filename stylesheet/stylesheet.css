@@ -46,17 +46,19 @@ color:black;
     }
  h1 {
       font-weight:150;
+     float:center;
       font-family:"algerian";
       text-align:center;
       margin-top:25px;
     color: rgb(33, 59, 207);
       font-family:"copperplate", "b612", "bai jamjuree",  "calibri";
   position:absolute;
+  z-index:200;
     }
    .navbar {
    background-color:rgb(127, 164, 171);
    overflow:hidden;
-     z-index:200;
+     z-index:199;
         opacity:0.9;
      border-bottom:1px solid rgb(29, 75, 173);
           position:-webkit-sticky;
