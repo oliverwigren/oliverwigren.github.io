@@ -44,11 +44,6 @@ color:black;
     a {
     text-decoration:none;
     }
-    a:hover {
-    color: rgb(127, 171, 165);
-    }
-    a:visited {
-    }
  h1 {
      position:-webkit-sticky;
      position:sticky;
@@ -93,9 +88,6 @@ color:black;
 
     p {
     font-family:"aleo","alegreya","alike", "calibri", sans-serif;
-    }
-    a {
-    text-decoration:none;
     }
     a:hover {
     color: rgb(127, 171, 165);
