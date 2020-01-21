@@ -55,11 +55,6 @@ color:black;
   margin-top:100px;
   z-index:10;
  }
-  .g-ytsubscribe {
-  margin-left:30px;
-   height:100;
-   width:340; 
-  }
   p.Film {
   font-family:"copperplate", "calibri";
   }
@@ -104,7 +99,6 @@ color:black;
      margin-left:600px;
       font-family:"algerian";
       text-align:center;
-   margin-top:-21px;
     color: rgb(33, 59, 207);
       font-family:"copperplate", "b612", "bai jamjuree",  "calibri";
   position:absolute;
@@ -113,12 +107,12 @@ color:black;
    .navbar {
    background-color:rgb(127, 164, 171);
    overflow:hidden;
-     z-index:199;
-        opacity:0.9;
-     border-bottom:1px solid rgb(29, 75, 173);
-          position:-webkit-sticky;
-     position:sticky;
-     top:0;
+   z-index:199;
+   opacity:0.9;
+   border-bottom:1px solid rgb(29, 75, 173);
+   position:-webkit-sticky;
+   position:sticky;
+   top:0;
    }
    .navbar a {
      float:left;
