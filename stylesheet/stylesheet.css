@@ -86,6 +86,7 @@ color:black;
    }
 .DWF-länk {
   height:70px;
+  padding-top:30px;
 }
 .DWF-länk:hover {
 opacity: 0.7;
