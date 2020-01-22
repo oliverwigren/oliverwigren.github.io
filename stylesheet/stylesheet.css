@@ -179,6 +179,7 @@ z-index:1;
   display:inline;
   font-family:"copperplate", "b612", "bai jamjuree",  "calibri";
     font-size:1.7em;
+   color:black;
   }
     .Kat li {
     padding-left:15px;
@@ -205,6 +206,9 @@ color:black;
     font-family:"copperplate", "b612", "bai jamjuree",  "calibri";
     font-size:2em;
     }
+.Kat h2 {
+color:black;
+}
 
 
 .fa {
