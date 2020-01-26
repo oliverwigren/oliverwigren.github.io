@@ -209,7 +209,36 @@ color:black;
 #ABC-menu h2 {
 color:black;
 }
-
+#musikh4 {
+ margin-bottom:16px;
+ }
+    #CC-dalen-text {
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:10px;
+    }
+    .musik p {
+  font-family:"copperplate", "calibri";
+  }
+  .musik h4 {
+  font-family:"copperplate", "calibri";
+  }
+      .musik {
+ border:5px dashed rgb(127, 164, 171);
+  background:rgb(39, 54, 207);
+  overflow:scroll;
+   padding-left:25px;
+   padding-bottom:45px;
+   padding-right:10px;
+  margin-bottom:100px;
+ }
+    .Musiktext {
+ margin-left:180px;
+   overflow:scroll;
+   padding-left:35px;
+   padding-bottom:35px;
+   padding-right:10px;
+  }
 
 .fa {
   padding: 20px;
