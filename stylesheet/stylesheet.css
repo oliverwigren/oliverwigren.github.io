@@ -181,6 +181,9 @@ z-index:1;
     font-size:1.7em;
    color:black;
   }
+#ABC-menu li {
+  display:inline;
+  }
     .Kat li {
     padding-left:15px;
     padding-right:15px;
