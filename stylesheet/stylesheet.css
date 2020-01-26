@@ -175,7 +175,7 @@ z-index:1;
     a:visited {
     color:none;
     }
- #ABC-menu ul {
+ #ABC-menu a {
   display:inline;
   font-family:"copperplate", "b612", "bai jamjuree",  "calibri";
     font-size:1.7em;
