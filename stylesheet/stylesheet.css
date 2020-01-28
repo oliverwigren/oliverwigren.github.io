@@ -35,6 +35,7 @@ color:black;
  .lista li {
   display:inline;
   padding-right:10px;
+  font-family:"copperplate", "calibri";
  }
    .lista {
   background-color:rgb(90, 163, 196);
