@@ -59,9 +59,10 @@ color:black;
 }
 .content {
   padding: 0 18px;
-  display: none;
+  background-color: white;
+  max-height: 0;
   overflow: hidden;
-  background-color: #f1f1f1;
+  transition: max-height 0.2s ease-out;
 }
  .lista li {
   display:inline;
