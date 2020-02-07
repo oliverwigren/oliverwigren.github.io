@@ -297,6 +297,9 @@ margin-top:890px;
 margin-left:100px;
 font-size:2.5em;
 }
+.Videoruta button {
+z-index:9;
+}
 
 .fa {
   padding: 20px;
