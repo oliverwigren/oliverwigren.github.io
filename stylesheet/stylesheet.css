@@ -291,6 +291,8 @@ color:black;
 .Videoruta h2 {
 z-index:10;
 position:absolute;
+margin-top:640px;
+margin-left:100px;
 }
 
 .fa {
