@@ -281,6 +281,12 @@ color:black;
    padding-right:10px;
   }
 
+.Videon {
+ width:1300; 
+  /*height:800;*/
+  padding-left:15px;
+}
+
 .fa {
   padding: 20px;
   font-size: 30px;
