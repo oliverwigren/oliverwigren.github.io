@@ -241,7 +241,7 @@ color:black;
       padding-bottom:20px;
     }
     .Kat a:hover {
-    background-color:rgb(53, 140, 31);
+    text-decoration:underline;
     }
     h2 {
     font-family:"copperplate", "b612", "bai jamjuree",  "calibri";
@@ -265,8 +265,7 @@ color:black;
   font-family:"copperplate", "calibri";
   }
       .musik {
- border:5px dashed rgb(127, 164, 171);
-  background:rgb(39, 54, 207);
+ border:1px solid rgb(127, 164, 171);
   overflow:scroll;
    padding-left:25px;
    padding-bottom:45px;
