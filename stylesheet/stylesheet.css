@@ -282,9 +282,9 @@ color:black;
   }
 
 .Videon {
- width:1300px; 
- height:800px;
-  padding-left:15px;
+ width:1350px; 
+ height:700px;
+  padding-left:35px;
   z-index:3;
   position:absolute;
 }
