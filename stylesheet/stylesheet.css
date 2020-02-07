@@ -283,13 +283,14 @@ color:black;
 
 .Videon {
  width:1350px; 
- height:700px;
+ height:760px;
   padding-left:35px;
   z-index:3;
   position:absolute;
 }
 .Videoruta h2 {
 z-index:10;
+color:rgb(130, 142, 217);
 position:absolute;
 margin-top:640px;
 margin-left:100px;
