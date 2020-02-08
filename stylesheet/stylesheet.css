@@ -303,6 +303,12 @@ position:absolute;
 margin-top:1000px;
 margin-left:100px;
 }
+.Videoruta p {
+z-index:11;
+position:absolute;
+margin-top:920px;
+margin-left:102px;
+}
 
 .fa {
   padding: 20px;
