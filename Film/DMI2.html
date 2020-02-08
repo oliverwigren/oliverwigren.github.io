@@ -59,7 +59,7 @@
     <iframe class="Videon"
          src="https://www.youtube.com/embed/y7EkqevJIJk" frameborder="0" allow="accelerometer; autoplay; 
         encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <h2>Dead Man´s Island II</h2>
+    <h2 lang="en">Dead Man´s Island II</h2>
     <p>6 personer kommer till en svensk ö på semester. Men det blir en helt annan historia.</p>
     <button class="accordion">Mer</button>
     <div class="panel">
@@ -68,15 +68,12 @@
     </div>
   
   <script>
-    var i;
+    var acc = document.getElementsByClassName("accordion");
+var i;
 
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
-    /* Toggle between adding and removing the "active" class,
-    to highlight the button that controls the panel */
     this.classList.toggle("active");
-
-    /* Toggle between hiding and showing the active panel */
     var panel = this.nextElementSibling;
     if (panel.style.display === "block") {
       panel.style.display = "none";
@@ -85,6 +82,5 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
-
   </script>
 </body>
