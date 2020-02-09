@@ -38,22 +38,17 @@
   text-decoration:underline;
 }
 
-/*.panel {
+.panel {
   padding: 0 18px;
   display: none;
   background-color: white;
   overflow: hidden;
-}*/
+  }
     .panel p {
     z-index:12;
     margin-top:1030px;
     margin-left:65px;
     }
-  .panel {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-}
   </style>
 </head>
 <body>
@@ -80,7 +75,7 @@
     </div>
   
   <script>
-   /* var acc = document.getElementsByClassName("accordion");
+  var acc = document.getElementsByClassName("accordion");
 var i;
 
 for (i = 0; i < acc.length; i++) {
@@ -91,21 +86,6 @@ for (i = 0; i < acc.length; i++) {
       panel.style.display = "none";
     } else {
       panel.style.display = "block";
-    }
-  });
-}*/
-    
-   var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
     }
   });
 }
