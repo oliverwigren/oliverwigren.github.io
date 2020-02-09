@@ -39,17 +39,22 @@
   text-decoration:underline;
 }
 
-.panel {
+/*.panel {
   padding: 0 18px;
   display: none;
   background-color: white;
   overflow: hidden;
-}
+}*/
     .panel p {
     z-index:12;
     margin-top:1030px;
     margin-left:65px;
     }
+  .panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
   </style>
 </head>
 <body>
