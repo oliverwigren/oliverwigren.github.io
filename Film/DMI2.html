@@ -18,22 +18,23 @@
   <link rel="stylesheet" type="text/css" href="https://burksson.github.io/stylesheet/stylesheet.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <style>
+<style>
    .accordion {
-  background-color:rgb(39, 54, 207);
-  color: #444;
+  background-color:rgb(130, 142, 217);
+  color:black;
   cursor: pointer;
   padding: 18px;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 20px;
   transition: 0.4s;
 }
 
 .active, .accordion:hover {
-  background-color: #ccc; 
+  background-color:rgb(33, 59, 207);
+  text-decoration:underline;
 }
 
 .panel {
@@ -87,9 +88,9 @@ for (i = 0; i < acc.length; i++) {
 
 function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.getElementByClass("navbar").style.padding = "30px 10px";
+    document.getElementByClassName("navbar").style.padding = "30px 10px";
   } else {
-    document.getElementByClass("navbar").style.padding = "80px 10px";
+    document.getElementByClassName("navbar").style.padding = "80px 10px";
   }
 }
   </script>
