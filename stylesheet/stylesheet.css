@@ -290,17 +290,17 @@ color:black;
 }
 .Videoruta h2 {
 color:rgb(39, 54, 207);
-margin-top:825px;
+margin-top:2px;
 margin-left:70px;
 font-size:2.5em;
 }
 .Videoruta button {
-margin-top:950px;
+margin-top:10px;
 margin-left:80px;
 }
 .Videoruta p {
-margin-top:885px;
-margin-left:102px;
+margin-top:-20px;
+margin-left:90px;
 }
 
 .fa {
