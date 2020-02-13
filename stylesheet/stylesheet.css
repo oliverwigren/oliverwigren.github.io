@@ -122,6 +122,24 @@ color:black;
     padding-top:75px;
     z-index:8;
     }
+fotter {
+    clear:both;
+    border-top:solid 1px rgb(41, 63, 186);
+    margin-top:150px;
+    text-align:left;
+    padding-left:7px;
+    padding-top:75px;
+    z-index:8;
+    }
+footer {
+    clear:both;
+    border-top:solid 1px rgb(41, 63, 186);
+    margin-top:150px;
+    text-align:left;
+    padding-left:7px;
+    padding-top:75px;
+    z-index:8;
+    }
     h2 {
     font-family:"copperplate", "b612", "bai jamjuree",  "calibri";
     }
