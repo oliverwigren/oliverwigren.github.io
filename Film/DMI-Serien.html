@@ -1,1 +1,112 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+  <title>burksson.github.io | Film</title>
+ 
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" type="text/css" href="https://burksson.github.io/stylesheet/stylesheet.css">
+ <link rel="icon" type="image/png" href="https://i.ibb.co/NWXz3wN/DWF-180x180.png">
+ <link rel="apple-touch-icon" sizes="180x180" href="https://i.ibb.co/NWXz3wN/DWF-180x180.png">
+ 
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9Q46C6VC5J"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-9Q46C6VC5J');
+
+ 
+  </script>
+  
+  <style>
+  .collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+.content {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+  </style>
+  </head>
+
+   
+  <body>
+  <div class="navbar">
+   <h1>Film</h1>
+ <a href="https://burksson.github.io" >Burksson.github.io</a>
+  <a href="https://burksson.github.io/Allt/Allt.html">Allt</a>
+<a href="https://burksson.github.io/audio/audio.html">Oljud</a>
+<a href="https://burksson.github.io/Film/film.html" >Film</a>
+  <a href="https://burksson.github.io/spel/spel.html">Spel</a>
+ <!-- <input type="text" placeholder="Sök..">-->
+  </div>
+  
+ <div id="Fotter">
+  <a target="_blank" href="https://www.youtube.com/channel/UC5PS9CDal0ggFZs7itaNEcA" class="fa fa-youtube"></a>
+  <a target="_blank" href="https://www.instagram.com/jaha_artor/" class="fa fa-instagram"></a>
+  <a target="_blank" href="https://burksson.wixsite.com/dicksonwigrenfilm"><img class="DWF-länk" src="https://i.ibb.co/yn5pbQM/DWF-logga-klar.png" alt="Dickson Wigren Film logga" border="0"></a>
+    </div>
+
+  </body>
+ 
+  <script>
+  var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+ 
+  window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementByClassName("navbar").style.padding = "30px 10px";
+  } else {
+    document.getElementByClassName("navbar").style.padding = "80px 10px";
+  }
+}
+  </script>
