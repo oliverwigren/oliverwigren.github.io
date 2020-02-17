@@ -76,9 +76,9 @@ color:black;
    width:1000px;
  }
 .Film img {
-width:520px;
+width:500px;
 margin-left:40px;
-height:400px;
+height:360px;
 }
 .Film img:hover {
 opacity:0.8;
@@ -88,8 +88,12 @@ opacity:0.8;
   }
   .Film h4 {
   font-family:"copperplate", "calibri";
-    margin-top:30px;
   }
+.Film .FilmKat {
+font-family:"copperplate", "calibri";
+    margin-top:30px;
+  font-size:1.09em;
+}
   .Filmtext {
  margin-left:580px;
   margin-top:-330px;
