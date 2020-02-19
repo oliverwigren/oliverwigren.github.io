@@ -299,7 +299,7 @@ margin-left:90px;
   font-family:"copperplate", "calibri", sans-serif;
 }
 .FilmBesk {
-border-left:solid 1px rgb(41, 63, 186);
+border-left:solid rgb(41, 63, 186) 1px;
 } 
 .Filmbesk h1 {
     font-weight: 150;
@@ -312,6 +312,11 @@ border-left:solid 1px rgb(41, 63, 186);
     position: absolute;
     z-index: 200;
     font-size: 2.2em;
+}
+.FilmBesk p {
+padding-top:35px;
+margin-left:420px;
+font-family: "aleo","alegreya","alike", "calibri", sans-serif;
 }
 
 .fa {
