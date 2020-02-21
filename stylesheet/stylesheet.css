@@ -284,6 +284,7 @@ color:black;
 }
 .Videoruta {
 font-family:"copperplate", "calibri", sans-serif;
+padding-bottom:50px;
 border-bottom:solid rgb(41, 63, 186) 1px;
 }
 .Videoruta h2 {
