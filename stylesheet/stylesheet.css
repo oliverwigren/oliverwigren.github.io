@@ -361,8 +361,7 @@ font-family: "aleo","alegreya","alike", "calibri", sans-serif;
   color: white;
 }
 #Fotter .fa-youtube {
-  background: #bb0000;
-  color: red;
+color: red;
 }
 #Fotter .fa-youtube:hover {
   color: black;
@@ -373,12 +372,10 @@ font-family: "aleo","alegreya","alike", "calibri", sans-serif;
   color: white;
 }
 #Fotter .fa-instagram {
-  background: #125688;
-  color: white;
+color: white;
 }
 #Fotter .fa-instagram:hover {
-  background: #125688;
-  color: black;
+color: black;
 }
 
 .fa-pinterest {
