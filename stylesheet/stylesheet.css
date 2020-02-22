@@ -356,12 +356,15 @@ font-family: "aleo","alegreya","alike", "calibri", sans-serif;
   background: #007bb5;
   color: white;
 }
-
 .fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+#Fotter .fa-youtube {
   background: #bb0000;
   color: red;
 }
-.fa-youtube:hover {
+#Fotter .fa-youtube:hover {
   color: black;
 }
 
@@ -369,7 +372,11 @@ font-family: "aleo","alegreya","alike", "calibri", sans-serif;
   background: #125688;
   color: white;
 }
-.fa-instagram:hover {
+#Fotter .fa-instagram {
+  background: #125688;
+  color: white;
+}
+#Fotter .fa-instagram:hover {
   background: #125688;
   color: black;
 }
