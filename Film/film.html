@@ -73,6 +73,17 @@
   cursor:pointer;
   }
  
+  .video {
+  background-image: url('https://img.youtube.com/vi/nZcejtAwxz4/maxresdefault.jpg');
+  height: 330px;
+  width: 600px;
+  margin-bottom: 50px;
+}
+
+/* Hide Play button + controls on iOS */
+video::-webkit-media-controls {
+    display:none !important;
+}
  </style>
 </head>
 <body>
@@ -122,6 +133,13 @@
   </div>
  </div>
  -->
+ 
+ <div class="video">
+    <video class="thevideo" loop preload="none">
+      <source src="https://media.publit.io/file/DMI.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video>
+  </div>
  
   <div class="Film">
    
@@ -373,6 +391,16 @@ function scrollFunction() {
   } else {
     document.getElementByClassName("navbar").style.padding = "80px 10px";
   }
+}
+ 
+ var figure = $(".video").hover( hoverVideo, hideVideo );
+
+function hoverVideo(e) {  
+    $('video', this).get(0).play(); 
+}
+
+function hideVideo(e) {
+    $('video', this).get(0).pause(); 
 }
  
 </script>
