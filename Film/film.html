@@ -134,6 +134,11 @@ video::-webkit-media-controls {
  </div>
  -->
  
+ <! — Use HTML5 Video syntax anywhere in your code →
+<video class=”some-css” loop>
+   <source src=”https://media.publit.io/file/DMI.mp4" type=”video/mp4" />
+</video>
+ 
  <div class="video">
     <video class="thevideo" loop preload="none">
       <source src="https://media.publit.io/file/DMI.mp4" type="video/mp4">
@@ -403,6 +408,19 @@ function hideVideo(e) {
     $('video', this).get(0).pause(); 
 }
  
+ window.onload = function() { //executes code after DOM loads
+ //--- select all <video> on the page
+ const vids = document.getElementsByTagName(‘video’)
+ // Loop over the selected elements and add event listeners
+ for (let i = 0; i < vids.length; i++) {
+   vids[i].addEventListener( ‘mouseover’, function(e) { 
+     vids[i].play()
+   })
+   vids[i].addEventListener( ‘mouseout’, function(e) {
+     vids[i].pause()
+   })
+ }
+}
 </script>
 
 </body>
