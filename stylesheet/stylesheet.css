@@ -369,6 +369,10 @@ font-family: "aleo","alegreya","alike", "calibri", sans-serif;
   background: #125688;
   color: white;
 }
+.fa-instagram:hover {
+  background: #125688;
+  color: black;
+}
 
 .fa-pinterest {
   background: #cb2027;
