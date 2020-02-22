@@ -359,7 +359,10 @@ font-family: "aleo","alegreya","alike", "calibri", sans-serif;
 
 .fa-youtube {
   background: #bb0000;
-  color: white;
+  color: red;
+}
+.fa-youtube:hover {
+  color: black;
 }
 
 .fa-instagram {
