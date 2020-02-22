@@ -72,6 +72,18 @@
   background:rgb(127, 171, 165);
   cursor:pointer;
   }
+  
+.video {
+  background-image: url('https://img.youtube.com/vi/nZcejtAwxz4/maxresdefault.jpg');
+  height: 330px;
+  width: 600px;
+  margin-bottom: 50px;
+}
+
+/* Hide Play button + controls on iOS */
+video::-webkit-media-controls {
+    display:none !important;
+}
  </style>
 </head>
 <body>
@@ -121,6 +133,13 @@
   </div>
  </div>
  -->
+ 
+<div class="video">
+    <iframe width="560" height="315" 
+         src="https://www.youtube.com/embed/y7EkqevJIJk" frameborder="0" allow="accelerometer; autoplay; 
+        encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
  
   <div class="Film">
    
@@ -375,4 +394,13 @@ function scrollFunction() {
 }
  
 </script>
+ <script>var figure = $(".video").hover( hoverVideo, hideVideo );
+
+function hoverVideo(e) {  
+    $('video', this).get(0).play(); 
+}
+
+function hideVideo(e) {
+    $('video', this).get(0).pause(); 
+}</script>
 </body>
