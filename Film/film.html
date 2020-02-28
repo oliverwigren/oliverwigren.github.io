@@ -147,6 +147,7 @@ video::-webkit-media-controls {
  </style>
 </head>
 <body>
+ <div class="container">
  
  
  <div class="navbar" style="border:0;">
@@ -446,7 +447,8 @@ video::-webkit-media-controls {
   <a target="_blank" href="https://www.instagram.com/jaha_artor/" class="fa fa-instagram"></a>
   <a target="_blank" href="https://burksson.wixsite.com/dicksonwigrenfilm"><img class="DWF-länk" src="https://i.ibb.co/yn5pbQM/DWF-logga-klar.png" alt="Dickson Wigren Film logga" border="0"></a>
     </div>
-
+ </div>
+ 
 <script>
 var coll = document.getElementsByClassName("collapsible");
 var i;
@@ -485,7 +487,7 @@ function hideVideo(e) {
  
  window.onload = function() { //executes code after DOM loads
  //--- select all <video> on the page
- const vids = document.getElementsByTagName(‘video’)
+ const vids = document.getElementsByTagName("video")
  // Loop over the selected elements and add event listeners
  for (let i = 0; i < vids.length; i++) {
    vids[i].addEventListener( ‘mouseover’, function(e) { 
