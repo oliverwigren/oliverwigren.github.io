@@ -115,6 +115,9 @@ font-family:"copperplate", "calibri";
     padding-left:7px;
     padding-top:75px;
 }
+#Fotter .Länkar a {
+  background:none;
+  }
     
     h2 {
     font-family:"copperplate", "b612", "bai jamjuree",  "calibri";
