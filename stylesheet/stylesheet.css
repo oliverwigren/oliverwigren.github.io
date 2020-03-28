@@ -323,6 +323,19 @@ padding-top:35px;
 margin-left:420px;
 font-family: "aleo","alegreya","alike", "calibri", sans-serif;
 }
+.SeFilm {
+    border-radius: 15px 15px 15px 15px;
+    width: 200px;
+    height: 50px;
+   background:rgb(33, 59, 207);
+   font-size:1.1em;
+   font-family:"copperplate", "b612", "bai jamjuree",  "calibri";
+   margin-top:20px;
+  }
+  .SeFilm:hover {
+  background:rgb(127, 171, 165);
+  cursor:pointer;
+  }
 
 .fa {
   padding: 20px;
