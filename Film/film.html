@@ -21,44 +21,18 @@
 </script>
  
  <style>
-   .collapsible {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-.active, .collapsible:hover {
-  background-color: #ccc;
-}
-.content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: #f1f1f1;
-}
-.content {
-  padding: 0 18px;
-  background-color: white;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-}
-.collapsible:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
-  color: white;
-  float: right;
-  margin-left: 5px;
-}
-
-.active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
-}
+  .kommande {
+  color: #213BCF;
+    background-color: #7FA4AB;
+    width: 100px;
+    height: 50px;
+    border: 0px;
+    font-size: 1em;
+    font-family: "copperplate", "calibri", sans-serif; 
+  }
+  .kommande:hover {
+  
+  }
   .SeFilm {
     border-radius: 15px 15px 15px 15px;
     width: 200px;
@@ -72,18 +46,6 @@
   background:rgb(127, 171, 165);
   cursor:pointer;
   }
- 
-  .video {
-  background-image: url('https://img.youtube.com/vi/nZcejtAwxz4/maxresdefault.jpg');
-  height: 330px;
-  width: 600px;
-  margin-bottom: 50px;
-}
-
-/* Hide Play button + controls on iOS */
-video::-webkit-media-controls {
-    display:none !important;
-}
   
   /* Dropdown Button */
 .dropbtn {
