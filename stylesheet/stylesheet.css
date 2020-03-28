@@ -323,7 +323,7 @@ padding-top:35px;
 margin-left:420px;
 font-family: "aleo","alegreya","alike", "calibri", sans-serif;
 }
-.SeFilm {
+.Film .Filmtext a .SeFilm {
     border-radius: 15px 15px 15px 15px;
     width: 200px;
     height: 50px;
