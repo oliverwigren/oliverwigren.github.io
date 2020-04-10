@@ -2,6 +2,45 @@
 body {
   background: rgb(130, 142, 217);
   }
+.Datum {
+  float: right;
+    margin-right: 20%;
+  }
+  .taggar {
+  text-align:center;
+  }
+  .Videoruta .panel .licens .panel p {
+      font-size: 0.96em;
+  }
+  
+  .Videoruta .panel .licens .accordion {
+  background-color: rgb(130, 142, 217);
+    z-index: 13;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    border-radius: 20px 20px 20px 20px;
+    width: 25%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+    padding-left: 5%;
+    padding-right: 70%;
+    /* padding-left: 10%; */
+    margin-left: 40px;
+    font-size:large;
+  }
+.active, .Videoruta .panel .licens .accordion:hover {
+  background-color:rgb(33, 59, 207);
+}
+  .Videoruta .panel .licens .panel {
+  display: none;
+  background-color:rgb(130, 142, 217);
+  overflow: hidden;
+  margin-left:80px;
+  }
   .Videoruta .accordion {
   background-color:rgb(130, 142, 217);
   z-index:13;
@@ -52,6 +91,17 @@ body {
   }
   .Videoruta .taggar p a:hover {
   color:black;
+  }
+
+  #Fotter .Länkar a {
+  background:none;
+  }
+  .Videoruta .panel .högerinfo {
+  float:right;
+  margin-left:50px;
+  }
+  .Videoruta .panel .vänsterinfo {
+  float:right;
   }
   .Videoruta p {
     width:725px;
