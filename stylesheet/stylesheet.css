@@ -6,7 +6,8 @@ body {
   float: right;
     margin-right: 20%;
   }
-  .taggar {
+  .Videoruta .taggar {
+  margin-top:40px;
   text-align:center;
   }
   .Videoruta .panel .licens .panel p {
