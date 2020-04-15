@@ -12,6 +12,9 @@ body {
   .Videoruta .panel .licens .panel p {
       font-size: 0.96em;
   }
+.Videoruta .panel p {
+margin-top:20px;
+}
   
   .Videoruta .panel .licens .accordion {
   background-color: rgb(130, 142, 217);
