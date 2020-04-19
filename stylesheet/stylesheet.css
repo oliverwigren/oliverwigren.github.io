@@ -9,6 +9,12 @@ body {
 .Videoruta .besk-p {
 margin-bottom:30px;
 }
+.DMI-link {
+
+}
+.DMI-link:hover {
+text-decoration:underline;
+}
   .Videoruta .taggar {
   margin-top:40px;
   text-align:center;
