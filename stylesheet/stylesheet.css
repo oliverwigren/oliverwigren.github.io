@@ -9,11 +9,19 @@ body {
 .Videoruta .besk-p {
 margin-bottom:30px;
 }
-.DMI-link {
-
+.Videoruta .panel p .DMI-link {
+color:black;
 }
-.DMI-link:hover {
+.Videoruta .panel p .DMI-link:visited {
+color:black;
+}
+.Videoruta .panel p .DMI-link:visited:hover {
+color:black;
 text-decoration:underline;
+}
+.Videoruta .panel p .DMI-link:hover {
+text-decoration:underline;
+color:black;
 }
   .Videoruta .taggar {
   margin-top:40px;
