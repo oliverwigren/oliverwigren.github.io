@@ -435,6 +435,9 @@ z-index:1;
     border: 1px solid #ccc;
   }
 }*/
+.container .Film .Filmtext p a:hover {
+    text-decoration:underline;
+    }
     p {
     font-family:"aleo","alegreya","alike", "calibri", sans-serif;
     }
