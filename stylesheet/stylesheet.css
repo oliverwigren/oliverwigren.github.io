@@ -437,6 +437,7 @@ z-index:1;
 }*/
 .container .Film .Filmtext p a:hover {
     text-decoration:underline;
+  color:black;
     }
     p {
     font-family:"aleo","alegreya","alike", "calibri", sans-serif;
