@@ -9,6 +9,9 @@ body {
 .Videoruta .besk-p {
 margin-bottom:30px;
 }
+.container .Undernav .navigation .DWF-textbesk {
+font-family:"copperplate", "calibri", sans-serif;
+}
 .Videoruta .panel p .DMI-link {
 color:black;
 }
