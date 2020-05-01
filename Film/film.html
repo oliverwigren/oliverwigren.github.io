@@ -103,31 +103,30 @@
   margin-top:40px;
   }
   
-  
-  .container .Film div.gallery {
-   margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 200px;
-    height: 200px;
-margin-top:50px;
-}
-
-.container .Film div.gallery:hover {
-  border: 1px solid #777;
-}
-
-.container .Film div.gallery img {
+  /* Style the buttons that are used to open and close the accordion panel */
+.container .accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
   width: 100%;
-  height: auto;
- z-index:20;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
 }
 
-.container .Film .gallery div.desc {
-  text-align: center;
-    z-index: 22;
-    margin-top: -30px;
- font-family:"copperplate", "calibri", sans-serif;
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.container .active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.container .panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
 }
  </style>
 </head>
@@ -194,6 +193,9 @@ margin-top:50px;
    <a href="https://burksson.github.io/Film/DMI2-D1.html"><button class="SeFilm">Se filmen</button></a>
    </div>
   
+
+<button class="accordion">Avsnitt</button>
+<div class="panel">
   <div class="gallery">
   <a href="">
     <img src="https://i.ibb.co/mBt852t/DMI2-D.png" width="600" height="400">
@@ -215,6 +217,10 @@ margin-top:50px;
   <div class="desc">Del 1</div>
 </div>
    -->
+</div>
+
+
+  
  </div>
   
   
