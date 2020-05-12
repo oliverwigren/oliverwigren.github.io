@@ -2,6 +2,40 @@
 body {
   background: rgb(130, 142, 217);
   }
+
+/* Accordion Avsnitt */
+.container .Film .accordion {
+  background-color: #213bcf;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    font-size: larger;
+    opacity:1;
+    transition: 0.4s;
+    font-family: "copperplate", "calibri", sans-serif;
+   margin-top:50px;
+}
+
+.container .Film .active, .accordion:hover {
+  background-color: rgb(130, 142, 217);
+    border: rgb(33, 59, 207) 1px solid;
+}
+.container .Film .active, .accordion:hover {opacity:0.6;}
+
+.container .Film .panel {
+  padding: 0 18px;
+    background-color: rgb(130, 142, 217);
+    display: none;
+    border: rgb(33, 59, 207) 1px solid;
+    border-top: none;
+    overflow: hidden;
+}
+
+/* Länk Youtube i texten om film*/
 .container .Undernav .navigation .DWF-textbesk .youtube-link {
 color:black;
 }
