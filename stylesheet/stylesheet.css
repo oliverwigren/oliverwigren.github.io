@@ -2,6 +2,16 @@
 body {
   background: rgb(130, 142, 217);
   }
+.container .Undernav .navigation .DWF-textbesk .youtube-link {
+color:black;
+}
+.container .Undernav .navigation .DWF-textbesk .youtube-link:hover {
+color:black;
+text-decoration:underline;
+}
+.container .Undernav .navigation .DWF-textbesk .youtube-link:visited {
+color:black;
+}
 .Datum {
   float: right;
     margin-right: 20%;
