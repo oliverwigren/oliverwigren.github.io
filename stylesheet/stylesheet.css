@@ -40,10 +40,13 @@ body {
 color:black;
 }
 .container .Undernav .navigation .DWF-textbesk .youtube-link:hover {
-color:black;
+color:red;
 text-decoration:underline;
 }
 .container .Undernav .navigation .DWF-textbesk .youtube-link:visited {
+color:black;
+}
+.container .Undernav .navigation .DWF-textbesk .youtube-link:visited:hover {
 color:black;
 }
 .Datum {
