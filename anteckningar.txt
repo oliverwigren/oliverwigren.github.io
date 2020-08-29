@@ -1,0 +1,44 @@
+/* class sociala medier
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+<a href="" class="fa fa-pinterest"></a>
+<a href="#" class="fa fa-snapchat-ghost"></a>
+<a href="#" class="fa fa-skype"></a>
+<a href="#" class="fa fa-android"></a>
+<a href="#" class="fa fa-dribbble"></a>
+<a href="#" class="fa fa-vimeo"></a>
+<a href="#" class="fa fa-tumblr"></a>
+<a href="#" class="fa fa-vine"></a>
+<a href="#" class="fa fa-foursquare"></a>
+<a href="#" class="fa fa-stumbleupon"></a>
+<a href="#" class="fa fa-flickr"></a>
+<a href="#" class="fa fa-yahoo"></a>
+<a href="#" class="fa fa-reddit"></a>
+<a href="#" class="fa fa-rss"></a>
+*/
+
+/*Bild-src:
+Dead Man´s Island II Huvudpersonerna: https://i.ibb.co/m0RndTW/DMI-Crew.png
+Dickson Wigren Film Logga 180x180: https://i.ibb.co/NWXz3wN/DWF-180x180.png
+Dead Man´s Island II Liggande: https://i.ibb.co/42P6DS7/dmi2liggandeplansch.jpg
+Dead Man´s Island II Liggande 752x500: https://i.ibb.co/f8QRPL2/DMI2-liggande752x500.png
+Dead Man´s Island Liggande: https://i.ibb.co/D7k3jY0/DMIplansch-Liggande.jpg
+Dickson Wigren Film logga: https://i.ibb.co/vHRhWQF/DWF-logga-ppp.png
+Bankrånet Liggande: https://i.ibb.co/TbB3hWj/Bankra-net-Plansch.jpg
+Dead Man´s Island II Deluxe: https://i.ibb.co/NYyS7DQ/DMI2-Deluxe-DWF.jpg
+Abandiens Fredsförsök: https://i.ibb.co/ZHQ8tq3/Aba-Liggande.jpg
+Moskvas GP 2018: https://i.ibb.co/18sHGns/mos-Plansch.jpg
+Dead Man´s island II Extramaterial: https://i.ytimg.com/vi/Tb5OUwpZxTM/hqdefault.jpg
+Dead Man´s Island II Deluxe: https://i.ibb.co/mBt852t/DMI2-D.png
+Dead Man´s Island II Deluxe 200x200: https://i.ibb.co/fkCjGxd/DMI2-deluxe200.png
+Dead Man´s Island Version 2: https://i.ibb.co/jvwzytg/DMIv2.png
+Rånet 315x560: https://i.ibb.co/6ysJ4Jw/Ra-net-560x315.png
+James B´onde Bushens hot: https://i.ibb.co/BfwVHsJ/JB-Plansch.png
+Bankrånet 200x200: https://i.ibb.co/rxYjxJM/Bank200.png
+Bankrånet 560x315: https://i.ibb.co/HVB2N8N/Bankra-net560x315.png
+*/
+
