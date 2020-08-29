@@ -12,3 +12,23 @@ navbar {
     position: sticky;
     top: 0;
 }
+.navbar a {
+     float:left;
+     text-align:center;
+     color:rgb(39, 54, 207);
+     text-decoration:none;
+     font-size:17px;
+     padding-left:15px;
+     padding-top:10px;
+     padding-bottom:10px;
+     padding-right:15px;
+     font-family:"copperplate", "calibri";
+   }
+   .navbar a:hover {
+   background-color:rgb(39, 54, 207);
+     color:rgb(127, 164, 171);
+   }
+   .navbar a.active {
+   background-color:rgb(108, 157, 166);
+   color:rgb(59, 70, 179);
+   }
