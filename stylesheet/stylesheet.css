@@ -1,33 +1,42 @@
-body {
-background-color:white;
-font-family:"copperplate", sans-serif;
-}
-navbar {
-    background-color:white;
-    overflow: hidden;
-    z-index: 1999;
-    margin-top: -5px;
-    opacity: 0.9;
-    border-bottom: 1px solid rgb(29, 75, 173);
-    position: sticky;
-    top: 0;
-}
-.navbar a {
-     float:left;
-     text-align:center;
-     color:rgb(39, 54, 207);
-     text-decoration:none;
-     font-size:17px;
-     padding-left:15px;
-     padding-top:10px;
-     padding-bottom:10px;
-     padding-right:15px;
-   }
-   .navbar a:hover {
-   background-color:rgb(39, 54, 207);
-     color:rgb(127, 164, 171);
-   }
-   .navbar a.active {
-   background-color:rgb(108, 157, 166);
-   color:rgb(59, 70, 179);
-   }
+  .body {
+  background-color:white;
+  font-family:"avenir","futura", sans-serif;
+  }
+  .container .film .videoruta .videon {
+  width:50%;
+  height:340px;
+  float:left;
+  }
+  .container .film .textruta {
+  margin-left: 51%;
+  }
+  .container .film {
+    width: 86%;
+    margin-left: 7%;
+    margin-right: 7%;
+    border: black 1px solid;
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  .container .film .textruta h2 {
+      font-family: "avenir","futura", sans-serif;
+    font-size: 3em;
+    margin-bottom: -10px;
+    margin-left: -3px;
+  }
+  .container .film .textruta p {
+      font-family: "avenir","futura", sans-serif;
+    margin-top: 0px;
+    width: 592px;
+  }
+  .container .film .textruta button {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 180px;
+    margin-top: 90px;
+    background: transparent;
+    border: black 2px solid;
+  }
