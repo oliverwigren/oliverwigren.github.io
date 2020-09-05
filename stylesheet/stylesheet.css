@@ -12,6 +12,7 @@
   }
   .container .film {
     width: 86%;
+    margin-top:51px;
     margin-left: 7%;
     margin-right: 7%;
     border: black 1px solid;
