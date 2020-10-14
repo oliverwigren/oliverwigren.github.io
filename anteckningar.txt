@@ -1,4 +1,4 @@
-/* class sociala medier
+class sociala medier
 <a href="#" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-twitter"></a>
 <a href="#" class="fa fa-google"></a>
@@ -21,7 +21,7 @@
 <a href="#" class="fa fa-rss"></a>
 */
 
-/*Bild-src:
+Bild-src:
 Dead Man´s Island II Huvudpersonerna: https://i.ibb.co/m0RndTW/DMI-Crew.png
 Dickson Wigren Film Logga 180x180: https://i.ibb.co/NWXz3wN/DWF-180x180.png
 Dead Man´s Island II Liggande: https://i.ibb.co/42P6DS7/dmi2liggandeplansch.jpg
@@ -40,5 +40,3 @@ Rånet 315x560: https://i.ibb.co/6ysJ4Jw/Ra-net-560x315.png
 James B´onde Bushens hot: https://i.ibb.co/BfwVHsJ/JB-Plansch.png
 Bankrånet 200x200: https://i.ibb.co/rxYjxJM/Bank200.png
 Bankrånet 560x315: https://i.ibb.co/HVB2N8N/Bankra-net560x315.png
-*/
-
