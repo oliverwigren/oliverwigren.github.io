@@ -138,6 +138,50 @@
         <a href=""><button>Se </button></a>
       </div>
     </div>
+    
+    <div class="Film">
+   
+ <h3>Dead Man´s Island II Deluxe</h3>
+   <div class="trailer">
+   <iframe width="560" height="315" 
+   src="https://www.youtube.com/embed/QBxkj7aBFfQ?controls=0" frameborder="0" allow="accelerometer; 
+   autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   </div>
+  <div class="Filmtext">
+   <p>6 personer kommer till en svensk ö på semester. Men det blir en helt annan historia.</p>
+   <p><strong>Speltid:</strong>≈10 min</p>
+   <p class="FilmKat"><a href="https://burksson.github.io/Film/Action.html">Action</a>   <a href="https://burksson.github.io/Film/Kortfilm.html">Kortfilm</a></p>
+   
+   </div>
+  
+
+<button class="accordion">Avsnitt</button>
+<div class="panel">
+  <div class="gallery">
+  <a href="https://burksson.github.io/Film/DMI2-D1.html">
+    <img src="https://i.ibb.co/fkCjGxd/DMI2-deluxe200.png" width="600" height="400">
+  </a>
+  <div class="desc">Del 1</div>
+</div>
+   
+  <div class="gallery">
+  <a href="https://burksson.github.io/Film/DMI2-D2.html">
+    <img src="https://i.ibb.co/rxYjxJM/Bank200.png" width="600" height="400">
+  </a>
+  <div class="desc">Del 2</div>
+</div>
+   
+   <div class="gallery">
+  <a href="https://burksson.github.io/Film/DMI2-D3.html">
+    <img src="https://i.ibb.co/rxYjxJM/Bank200.png" width="600" height="400">
+  </a>
+  <div class="desc">Del 3</div>
+</div>
+</div>
+
+
+  
+ </div>
   </div>
   
   <footer>
@@ -150,6 +194,25 @@
     </div>
   </footer>
 <script>
+  //accordion:
+  var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
 </script>
 </body>
 </html>
