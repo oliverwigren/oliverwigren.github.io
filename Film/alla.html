@@ -43,7 +43,7 @@
   border-top:black 1px solid;
   margin-top:100px;
   }
-  footer div.footer-under address a.foot-länk img {
+  footer #footer div.footer-under address a.foot-länk img {
       width: 15px;
     background: red;
     padding-top: 10px;
@@ -52,42 +52,42 @@
     padding-right: 15px;
     border-radius: 40px 40px 40px 40px;
   }
-  footer .footer-under .foot-copy {
+  footer #footer .footer-under .foot-copy {
   float:right;
   font-size:small;
   font-family:"avenir","futura", sans-serif;
   position:relative;
   margin-top:-20px;
   }
-  footer .footer-left img {
+  footer #footer .footer-left img {
   width:90px;
   margin-top:20px;
   }
-  footer .footer-left {
+  footer #footer .footer-left {
   float:left;
   margin-left:30px;
   }
-  footer .footer-center {
+  footer #footer .footer-center {
   margin-left: 40%;
     font-size: medium;
     font-family: "avenir", "futura", sans-serif;
   }
-  footer .footer-right {
+  footer #footer .footer-right {
   float:right;
   }
-  footer .footer-under {
+  footer #footer .footer-under {
       border-top: 2px solid yellow;
     margin-top: 175px;
     padding-top: 10px;
     background-color: #551E00;
   }
-  footer .footer-left p em {
+  footer #footer .footer-left p em {
   font-size:large;
   }
-  footer .footer-under address a.foot-länk {
+  footer #footer .footer-under address a.foot-länk {
   margin-left:45%;
   }
-  footer .footer-center ul li {
+  footer #footer .footer-center ul li {
   margin-left: -20px;
   }
 </style>
@@ -186,6 +186,7 @@
  </div>
   
   <footer>
+    <div id="footer">
     <div class="footer-left">
       <img src="https://i.ibb.co/vHRhWQF/DWF-logga-ppp.png" alt="Dickson Wigren Film logga">
       <p><em>Nos intermissum incipere</em></p>
@@ -205,14 +206,15 @@
     </address>
       <p class="foot-copy">© Dickson Wigren 2020</p>
     </div>
+    </div>
   </footer>
 <script>
   var X = Math.floor(Math.random() * 10); 
   if(X<5) {
-     document.getElementsByClassName("container").style.backgroundColor = "red";
+     document.getElementById("footer").style.backgroundColor = "red";
      }
   else {
- document.getElementsByClassName("container").style.backgroundColor = "orange";
+ document.getElementById("footer").style.backgroundColor = "orange";
   }
 </script>
 </body>
