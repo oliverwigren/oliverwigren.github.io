@@ -76,7 +76,7 @@
   float:right;
   }
   footer .footer-under {
-      border-top: 1px solid yellow;
+      border-top: 2px solid yellow;
     margin-top: 175px;
     padding-top: 10px;
     background-color: #551E00;
@@ -205,7 +205,12 @@
   </footer>
 <script>
   var X = Math.floor(Math.random() * 10); 
-  console.log(X)
+  if(X<5) {
+     console.log("x<5");
+     }
+  else {
+  console.log("x>5");
+  }
 </script>
 </body>
 </html>
