@@ -43,3 +43,32 @@
     border: black 2px solid;
     cursor:pointer;
   }
+
+.container .film .avsnitt .gallery {
+   margin-left: 10px;
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+
+.container .film .avsnitt .gallery:hover {
+      border: 4px solid black;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.container .film .avsnitt .gallery img {
+  width: 100%;
+  height: auto;
+ z-index:20;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.container .film .avsnitt .gallery div.desc {
+  text-align: center;
+    z-index: 22;
+    margin-top: -50px;
+ font-family:"copperplate", "calibri", sans-serif;
+}
+  .container .film .avsnitt {
+  
+  }
