@@ -2,7 +2,7 @@
   background-color:white;
   font-family:"avenir","futura", sans-serif;
   }
-   .container .film .videoruta .videon {
+    .container .film .videoruta .videon {
   width:50%;
   height:340px;
   float:left;
@@ -41,38 +41,5 @@
     margin-top: 90px;
     background: transparent;
     border: black 2px solid;
-  }
-  
-  
-  .navbar {
-    background-color:white;
-    z-index: 1999;
-    position:fixed;
-    top: 0;
-}
-.navbar a {
-     float:left;
-     text-align:center;
-     color:black;
-     text-decoration:none;
-     font-size:17px;
-     padding-left:15px;
-     padding-top:10px;
-     padding-bottom:10px;
-     padding-right:15px;
-     font-weight:600;
-     font-family:"avenir", "futura", sans-serif;
-   }
-   .navbar a:hover {
-   background-color:black;
-     color:white;
-   }
-   .navbar a.activenav {
-   background-color:black;
-   color:white;
-   }
-  
-  footer {
-  border-top:black 1px solid;
-  margin-top:100px;
+    cursor:pointer;
   }
