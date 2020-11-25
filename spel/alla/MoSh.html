@@ -23,9 +23,13 @@
     z-index: 10;
     position: absolute;
   }
-  .btns #full {
-  width:;
-  height:;
+  .menyrad .btns #full {
+  width: ;
+    height: ;
+    position: relative;
+    z-index: 10;
+    margin-top: 580px;
+    margin-left: 940px;
   }
   </style>
 </head>
@@ -54,33 +58,43 @@
    var bg = Math.floor(Math.random() * 10); 
   if(bg===1) {
      document.getElementById("bg-linje").style.backgroundColor = "red";
+    document.getElementById("full").style.backgroundColor = "red";
      }
   if(bg===2) {
   document.getElementById("bg-linje").style.backgroundColor = "teal";
+  document.getElementById("full").style.backgroundColor = "red";
   }
   if(bg===3) {
  document.getElementById("bg-linje").style.backgroundColor = "orange";
+ document.getElementById("full").style.backgroundColor = "red";
   }
   if(bg===4) {
  document.getElementById("bg-linje").style.backgroundColor = "steelblue";
+  document.getElementById("full").style.backgroundColor = "red";
   }
   if(bg===5) {
  document.getElementById("bg-linje").style.backgroundColor = "pink";
+ document.getElementById("full").style.backgroundColor = "red";
   }
   if(bg===6) {
  document.getElementById("bg-linje").style.backgroundColor = "palevioletred";
+ document.getElementById("full").style.backgroundColor = "red";
   }
   if(bg===7) {
  document.getElementById("bg-linje").style.backgroundColor = "blanchedalmond";
+ document.getElementById("full").style.backgroundColor = "red";
   }
   if(bg===8) {
  document.getElementById("bg-linje").style.backgroundColor = "darkslategray";
+ document.getElementById("full").style.backgroundColor = "red";
   }
   if(bg===9) {
  document.getElementById("bg-linje").style.backgroundColor = "cornsilk";
+ document.getElementById("full").style.backgroundColor = "red";
   }
   if(bg<1 || bg>9) {
   document.getElementById("bg-linje").style.backgroundColor = "aquamarine";
+  document.getElementById("full").style.backgroundColor = "red";
   }
 </script>
 </body>
