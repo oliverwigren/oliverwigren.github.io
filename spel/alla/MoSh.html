@@ -203,14 +203,24 @@
   var fullmargin = document.getElementById("spelet").style.margin = "0";
   var fullz = document.getElementById("spelet").style.zindex = "100";
   };*/
-   function toggleFullScreen() {
+  function toggleFullscreen() {
+  let elem = document.querySelector("video");
+
+  elem.onfullscreenchange = handleFullscreenChange;
   if (!document.fullscreenElement) {
-      document.documentElement.requestFullscreen();
+    elem.requestFullscreen().then({}).catch(err => {
+      alert(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
+    });
   } else {
-    if (document.exitFullscreen) {
-      document.exitFullscreen(); 
-    }
+    document.exitFullscreen();
   }
+}
+
+function handleFullscreenChange(event) {
+  let elem = event.target;
+  let isFullscreen = document.fullscreenElement === elem;
+
+  adjustMyControls(isFullscreen);
 }
 </script> 
 </body>
