@@ -112,18 +112,23 @@
   margin-top:30px;
    position:relative;
   }
-
 canvas {
 	display: block;
 }
-
 #canvasBg {
 	background: #ffffff;
+	width:inherit;
+	height:inherit;
 }
-
 #overlapping canvas {
 	margin: -600px 0 0;
+	width:inherit;
+	height:inherit;
 }
+	#canvasEntities {
+	width:inherit;
+	height:inherit;
+	}
   </style>
 </head>
 <body>
@@ -131,9 +136,9 @@ canvas {
   <div id="bg-linje"></div>
   
   <div class="spelet">
-  <canvas id="canvasBg" width="800" height="600"></canvas>
+  <canvas id="canvasBg"></canvas>
 <div id="overlapping">
-<canvas id="canvasEntities" width="800" height="600"></canvas>
+<canvas id="canvasEntities"></canvas>
 </div>
   </div>
   
