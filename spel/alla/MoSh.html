@@ -112,14 +112,36 @@
   margin-top:30px;
    position:relative;
   }
+  
+  body {
+	background: #202020;
+}
+
+canvas {
+	display: block;
+}
+
+#canvasBg {
+	background: #ffffff;
+}
+
+#overlapping canvas {
+	margin: -600px 0 0;
+}
   </style>
 </head>
 <body>
   
   <div id="bg-linje"></div>
   
-  <img class="spelet" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZXNHlLFA8IY9RAv54R9jhcfYvUzfhr12OhQ&usqp=CAU">
+  <div class="spelet">
+  <canvas id="canvasBg" width="800" height="600"></canvas>
+<div id="overlapping">
+<canvas id="canvasEntities" width="800" height="600"></canvas>
+</div>
+  </div>
   
+ 
   <div class="sida-spel">
     <h2>Monster Shooter</h2>
     <div class="spel-besk">
@@ -200,6 +222,8 @@
   function fullscreen() {
   
   };
+    
+    <script src="https://burksson.github.io/spel/scripts/MoSh.js"></script>
 </script>
 </body>
 </html>
