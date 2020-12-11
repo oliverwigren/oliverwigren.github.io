@@ -18,7 +18,7 @@ requestAnimFrame = window.requestAnimationFrame ||
                       window.setTimeout(callback, 1000/60);
                     },
 imgSprite = new Image();
-imgSprite.src = "Bilder/sprite.png";
+imgSprite.src = "https://i.ibb.co/RPD0f2f/sprite.png";
 imgSprite.addEventListener("load", init, false);
 
 
