@@ -16,7 +16,7 @@
     height: 250px;
     position: absolute;
   }
-  .spelet {
+  #spelet {
       width: 850px;
     height: ;
     margin-left: 170px;
@@ -112,37 +112,14 @@
   margin-top:30px;
    position:relative;
   }
-canvas {
-	display: block;
-}
-#canvasBg {
-	background: #ffffff;
-	width:inherit;
-	height:inherit;
-}
-#overlapping canvas {
-	margin: -600px 0 0;
-	width:inherit;
-	height:inherit;
-}
-	#canvasEntities {
-	width:inherit;
-	height:inherit;
-	}
   </style>
 </head>
 <body>
   
   <div id="bg-linje"></div>
   
-  <div class="spelet">
-  <canvas id="canvasBg"></canvas>
-<div id="overlapping">
-<canvas id="canvasEntities"></canvas>
-</div>
-  </div>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZXNHlLFA8IY9RAv54R9jhcfYvUzfhr12OhQ&usqp=CAU" id="spelet">
   
- 
   <div class="sida-spel">
     <h2>Monster Shooter</h2>
     <div class="spel-besk">
@@ -221,11 +198,10 @@ canvas {
   }
     
   function fullscreen() {
-  
+  var fullwidth = document.getElementById("spelet").style.width = "100%";
+  var fullheight = document.getElementById("spelet").style.height = "100%";
   };
    
 </script> 
-	
-    <script src="https://burksson.github.io/spel/scripts/MoSh.js"></script>
 </body>
 </html>
