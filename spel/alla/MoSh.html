@@ -204,7 +204,7 @@
   var fullz = document.getElementById("spelet").style.zindex = "100";
   };*/
   function toggleFullscreen() {
-  let elem = document.querySelector("video");
+  let elem = document.getElementById("spelet");
 
   elem.onfullscreenchange = handleFullscreenChange;
   if (!document.fullscreenElement) {
