@@ -35,6 +35,19 @@ rhythmone.com, 3630748062, RESELLER, a670c89d4a324e47
 video.unrulymedia.com, 3630748062, RESELLER, a670c89d4a324e47
 telaria.com, rwd19-2713774, RESELLER, 1a4e959a1b50034a
 tremorhub.com, rwd19-2713774, RESELLER, 1a4e959a1b50034a
-
+pokkt.com, 7606, RESELLER, c45702d9311e25fd
+openx.com, 540838151, RESELLER, 6a698e2ec38604c6
+reforge.in, 353, RESELLER
+appnexus.com, 2764, RESELLER
+appads.in, 107606, RESELLER
+indexexchange.com, 194730, RESELLER, 50b1c356f2c5c8fc
+contextweb.com, 562499, RESELLER, 89ff185a4c4e857c
+mobilefuse.com, 3847, RESELLER, 71e88b065d69c021
+districtm.io, 102098, RESELLER, 3fd707be9c4527c3
+lunamedia.io, a49272ae78e0ed4beb713268644928f0, RESELLER, 524ecb396915caaf
+e-planning.net, e1028cf4f3301b90, RESELLER, c1ba615865ed87b2
+Se7en.es, 212432, RESELLER, 064bc410192443d8
+prequel.tv, 513, RESELLER
+decenterads.com, 191, RESELLER
 
 google.com, pub-1199348758956094, DIRECT, f08c47fec0942fa0
