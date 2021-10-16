@@ -49,5 +49,14 @@ e-planning.net, e1028cf4f3301b90, RESELLER, c1ba615865ed87b2
 Se7en.es, 212432, RESELLER, 064bc410192443d8
 prequel.tv, 513, RESELLER
 decenterads.com, 191, RESELLER
+pubmatic.com, 160846, RESELLER, 5d62403b186f2ace
+pubmatic.com, 156494, RESELLER, 5d62403b186f2ace
+openx.com, 541031350, RESELLER, 6a698e2ec38604c6
+rubiconproject.com, 14334, RESELLER, 0bfd66d529a55807
+appnexus.com, 10617, RESELLER
+appnexus.com, 9393, RESELLER
+lemmatechnologies.com, 362, RESELLER, 7829010c5bebd1fb
+indexexchange.com, 186684, RESELLER, 50b1c356f2c5c8fc
+inmobi.com, 61d733c3779d43e590c51c8bc078e10c, RESELLER, 83e75a7ae333ca9d
 
 google.com, pub-1199348758956094, DIRECT, f08c47fec0942fa0
