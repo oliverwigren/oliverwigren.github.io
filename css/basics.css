@@ -1,1 +1,10 @@
-
+a {
+    color:#34abeb;
+    text-decoration:none;
+  }
+   a:hover,a:visited:hover {
+    color:black;
+  }
+   a:visited {
+    color:#34abeb;
+  }
