@@ -1,4 +1,4 @@
-##Portfolio of Oliver Wigren
+Portfolio of Oliver Wigren
 
 Created for the Portfolio Website on Codecademy.
 
