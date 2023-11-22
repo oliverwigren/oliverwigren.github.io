@@ -22,6 +22,8 @@
       }
       navbar ul {
         display: flex;
+        justify-content: center;
+        align-content: center;
       }
       navbar ul li {
         text-align: center;
@@ -35,18 +37,27 @@
       }
 
       .boxes {
-        margin-bottom: 50px;
         border: 1px solid black;
         padding: 20px;
         margin:auto;
         width: 50%;
         display: block;
+        margin-bottom: 50px;
+      }
+
+
+      content img {
+        display: flexbox;
+        justify-content: center;
+        align-content: center;
+        padding: 15px;
+        max-width: 100px;
       }
     </style>
   </head>
   <body>
     <navbar>
-      <ul>
+      <ul style="padding: 0px;">
         <li id="active">Main</li>
         <li>Contact</li>
       </ul>
@@ -59,6 +70,7 @@
       <img src="/Logga1.png" alt="">
     </container>
     <content class="boxes"> <!--Skills, top 3 cert--> 
+        <img src="badge.png">
         <img src="badge.png">
       </content>
   </body>
