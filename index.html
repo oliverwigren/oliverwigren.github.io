@@ -12,23 +12,30 @@
       body {
         font-family:avenir,serif;
       }
-      navbar {
+      navbar,header,container,content {
         width: 25%;
-        margin-left:50%;
+        margin:auto;
         border: 1px solid black;
       }
       navbar ul {
         display: flex;
       }
       navbar ul li {
-        padding: 20px;
+        text-align: center;
+        width: 60px;
+        height: 30px;
+        border: 1px solid black;
+        margin: 5px;
+      }
+      navbar ul li.active {
+        background-color: red;
       }
     </style>
   </head>
   <body>
     <navbar>
       <ul>
-        <li>Main</li>
+        <li class="active">Main</li>
         <li>Contact</li>
       </ul>
     </navbar>
