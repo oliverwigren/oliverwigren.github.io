@@ -1,6 +1,6 @@
 Portfolio of Oliver Wigren
 
-Created for the Portfolio Website on Codecademy.
+Created for the Personal Portfolio Website on Codecademy.
 
 Also containing files linked to Underscore Games
 
