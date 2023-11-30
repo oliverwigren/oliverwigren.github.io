@@ -77,13 +77,19 @@
         padding: 15px;
         max-width: 100px;
       }
+      .ovanpå {
+        opacity: 0%;
+      }
+      .parra:hover > .ovanpå {
+        opacity: 100%;
+      }
     </style>
   </head>
   <body>
     <navbar>
       <ul style="padding: 0px;">
         <a href="#"><li id="active">Main</li></a>
-        <a href="#"><li id="active">Projects</li></a>
+        <a href="/projects.html"><li>Projects</li></a>
         <a href="/contact.html"><li>Contact</li></a>
       </ul>
     </navbar>
@@ -94,12 +100,14 @@
       <p>I started programming in 2018 with javascript and then HTML/CSS. I began to learn how to make games in Unity in 2020 and I released my first game, Squared Derauqs, in 2021. Since then have I released many more games and improved my abilites. In 2023 did I earn the junior Unity programmer certificate to prove my competence but also learn about the foundations of OOP and professional skills. This website is made entirely by me with HTML and CSS.</p>
       
     </header>
+
     <container class="boxes"> <!--Projects-->
       <div>
-        <a href="projects.html/#HunterTrophy"><img src="/resources/LoggaHT.png" alt="Hunter Trophy"></a>
+        <a href="/projects.html/#HunterTrophy"><img src="/resources/LoggaHT.png" alt="Hunter Trophy"></a>
       </div>
       <div>
-        <a href="projects.html/#SoloSpaceFighter"><img src="/resources/LoggaSSF.png" alt="Solo Space Fighter"></a>
+        <a href="/projects.html/#SoloSpaceFighter"><img class="parra" src="/resources/LoggaSSF.png" alt="Solo Space Fighter"></a>
+        <p class="ovanpå">WOW DEN SYNSNS SKSJJAHH HAHHAHHAHAH TYES JAG KLARA DET!</p>
       </div>
       <!--<div>
         <img src="/resources/LoggaHT.png" alt="Hunter Trophy">
@@ -108,11 +116,13 @@
         <a href="projects.html/#HunterTrophy"><img src="/resources/LoggaSSF.png" alt="Solo Space Fighter"></a>
       </div>-->
       </container>
+
     <!--<content class="boxes"> --><!--Skills, top 3 cert--> 
         <!--Link on each img to reference webpage--><!--
         <img src="badge.png" alt="Junior Unity Programmer">
         <img src="badge.png" alt="HarvardX's CS50">
         <img src="badge.png" alt="Codecademy Java">
       </content>-->
+
   </body>
 </html>
