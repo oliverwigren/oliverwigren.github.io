@@ -1,3 +1,8 @@
+* {
+    margin:0;
+    padding:0;
+    font-family:avenir,sans-serif;
+}
 navbar {
     width: 25%;
     min-width:150px;
