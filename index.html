@@ -1,96 +1,118 @@
-<!DOCTYPE html>
+<!DOCTYPE>
 <html lang="en">
-  <head>
-    <meta http-equiv="refresh" content="delay_time; URL=oliverwigren.github.io/projects.html" />
-    <title>Oliver Wigren</title>
-    
+<head>
+    <title>Projects</title>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" type="text/css" href="/resources/css/styles.css">
 
     <style>
-      body {
-        font-family:avenir,sans-serif;
-      }
-      .boxes {
-        border: 1px solid black;
-        padding: 20px;
-        margin:auto;
-        width: 50%;
-        display: flex;
-        margin-bottom: 50px;
-      }
-      header ul {
-        list-style: none;
-        display: inline;
-        text-align: center;
-      }
-
-      container {
-
-      }
-      /*container div {
-        width:40%;
-        margin:5%;
-        height:40%;
-      }*/
-      container div img {
-        width: 100%;
-        height: 100%;
-      }
-
-      content {
-        justify-content: center;
-        align-content: center;
-      }
-      content img {
-        padding: 15px;
-        max-width: 100px;
-      }
+        body {
+    font-family:"avenir", sans-serif;
+    background-color:gray;
+  }
+    div.game {
+    margin-top:5%;
+    width:85%;
+   padding:15px;
+   margin-left:7.5%;
+   margin-right:7.5%;
+   background:white;
+   position:relative;
+  }
+  div .logo {
+    width:10%;
+    height:auto;
+    min-width:40px;
+    min-height:40px;
+    
+  }
+  section.left {
+    width:50%;
+  }
+  section.right {
+    width: 45%;
+    right: 0px;
+    position: absolute;
+    top: 0px;
+    padding: 15px;
+  }
+  div section.right img {
+    right: 0px;
+    width: 100%;
+    margin-right: 5%;
+    position: absolute;
+  }
+  .gameName {
+    position: absolute;
+    top: 15px;
+    left: 12%;
+  }
+  ul {
+    list-style: none;
+  }
     </style>
-  </head>
-  <body>
+</head>
+<body>
     <navbar>
-      <ul style="padding: 0px;">
-        <a href="#"><li id="active">Main</li></a>
-        <a href="/projects.html"><li>Projects</li></a>
-        <a href="/contact.html"><li>Contact</li></a>
-      </ul>
+        <ul style="padding: 0px;">
+          <!--<a href="/main.html"><li>Main</li></a>-->
+          <a href="#"><li id="active">Projects</li></a>
+          <a href="/contact.html"><li>About</li></a>
+        </ul>
     </navbar>
 
-    <header class="boxes"> <!--About-->
-      <!--<ul>
-      <li>Junior Unity Programmer</li>
-      </ul>-->
-      <h2>Oliver Wigren</h2>
-      <p>I started to learn programming in 2018 and have since then have I learned several programming languages (Java, C, Python etc.), Web Development and Unity. On the way have I done many courses such as Junior Unity Programmer, HarvardX's CS50 and Learn Java by Codecademy.</p>
-      
-    </header>
+    <h1 style="text-align: center;">Projects</h1>
 
-    <container class="boxes"> <!--Projects-->
-      <h2>Projects</h2>
-      <div>
-        <a href="/projects.html#HunterTrophy"><img src="/resources/LoggaHT.png" alt="Hunter Trophy"></a>
-      </div>
-      <div>
-        <a href="/projects.html#SoloSpaceFighter"><img src="/resources/LoggaSSF.png" alt="Solo Space Fighter"></a>
-      </div>
-      <!--<div>
-        <img src="/resources/LoggaHT.png" alt="Hunter Trophy">
-      </div>
-      <div>
-        <a href="projects.html/#HunterTrophy"><img src="/resources/LoggaSSF.png" alt="Solo Space Fighter"></a>
-      </div>-->
-      </container>
-
-    <!--<content class="boxes"> --><!--Skills, top 3 cert--> 
-        <!--Link on each img to reference webpage-->
-        <!--<h2>Certificates</h2>
-        <img src="badge.png" alt="Junior Unity Programmer">
-        <img src="badge.png" alt="HarvardX's CS50">
-        <img src="badge.png" alt="Codecademy Java">
-      </content>-->
-
-  </body>
+    <div class="game" id="HunterTrophy"> <!--Start game div, Trophy Hunter-->
+        <img class="logo" src="/resources/LoggaHT.png" alt="the logo of Hunter Trophy">
+        <h2 class="gameName">Hunter Trophy | 2023</h2>
+        <section class="left">
+       <!-- <h3>Lorem ipsum</h3> -->
+        <p>Hunter trophy is a game about a hippo which goes absolutley loco crazy and kills everyone. Even the man with the yellow hat.
+          <br><br> A game with unique story from the perspective of the hunted animal, in addition to the art-style and design being unusual.
+        <br><br> The game is made by me and Fredrika. I have worked with all the coding, level design and overall developing, while Fredrika has made all the art and been incharge of UI and UX.</p>
+        <ul>
+          <!--<li><span>Platforms:</span> MacOS and Windows</li> release date, publisher-->
+          <li><span>Genre:</span> Action, Adventure, Casual</li>
+          <li><span>Platforms:</span> MacOS and Windows</li>
+          <li><span>Available on:</span> <a href="https://the-underscore-games.itch.io/hunter-trophy">itch.io</a>, <a href="https://www.apple.com">Mac App Store</a></li>
+        </ul>
+          </section>
+        <section class="right">
+        <img class="banner" src="/resources/HunterTrophy_banner.png" alt="Hunter Trophy banner">
+        <!--<section class="links">
+    <a href="https://the-underscore-games.itch.io/hunter-trophy">itch.io<!--<img src="badge.png" alt="itch.io">--><!--</a> 
+    <a href="https://the-underscore-games.itch.io/hunter-trophy">Mac App Store<!--<img src="applebadge.png" alt="Mac App Store">--><!--</a>
+        </section>-->
+          </section>
+      </div> <!--End game div-->
+    
+    
+      <div class="game" id="SoloSpaceFighter"> <!--Start game div Solo Space Fighter-->
+        <img class="logo" src="/resources/LoggaSSF.png" alt="the logo of Solo Space Fighter">
+        <h2 class="gameName">Solo Space Fighter | 2022</h2>
+        <section class="left">
+       <!-- <h3>Lorem ipsum</h3> -->
+        <p>Solo Space Fighter is a 2d top-down game inspired by <span style="font-style:italic;">Asteroids</span>. 
+          <br><br> The game has a cool and easy feeling of floating around in space. The clean and modern design makes it a relaxing and minimalistic game.
+        <br><br> The game is entirely made by me with everything from assets to coding and game design, although it is heavily inspired by the video game <span style="font-style:italic;">Asteroids</span>.</p>
+        <ul>
+          <!--<li><span>Platforms:</span> MacOS and Windows</li> release date, publisher-->
+          <li><span>Genre:</span> Action, Casual, Arcade</li>
+          <li><span>Platforms:</span> MacOS, Windows, iOS and Android</li>
+          <li><span>Available on:</span> <a href="https://the-underscore-games.itch.io/solo-space-fighter">itch.io</a>, <a href="https://apps.apple.com/us/app/solo-space-fighter/id1576888293">App Store</a>, <a href="https://apps.apple.com/us/app/solo-space-fighter/id1576888293">Mac App Store</a>, <a href="https://play.google.com/store/apps/details?id=com.UG.SSF">Google Play Store</a>, <a href="https://www.microsoft.com/sv-se/p/solo-space-fighter/9p7gqtg7dg1p?rtc=1&activetab=pivot:overviewtab">Microsoft Store</a></li>
+        </ul>
+          </section>
+        <section class="right">
+        <img class="banner" src="/resources/SSF_banner.png" alt="Solo Space Fighter banner">
+        <!--<section class="links">
+    <a href="https://the-underscore-games.itch.io/solo-space-fighter">itch.io<!--<img src="badge.png" alt="itch.io">--><!--</a> 
+    <a href="https://the-underscore-games.itch.io/hunter-trophy">Mac App Store<!--<img src="applebadge.png" alt="Mac App Store">--><!--</a>
+        </section>-->
+          </section>
+      </div> <!--End game div-->
+</body>
 </html>
