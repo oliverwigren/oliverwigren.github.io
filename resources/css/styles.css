@@ -35,6 +35,6 @@ navbar {
   }
 
 
-  content#media {
+  content#media ul {
     display: inline-block;
   }
