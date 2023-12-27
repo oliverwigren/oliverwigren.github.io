@@ -34,7 +34,13 @@ navbar {
     background-color: red;
   }
 
+  header img {
+    float: right;
+  }
 
+  content#media ul {
+    margin: auto;
+  }
   content#media ul a li {
     display: inline-block;
   }
