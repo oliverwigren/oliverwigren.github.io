@@ -33,3 +33,8 @@ navbar {
   navbar ul li#active {
     background-color: red;
   }
+
+
+  content#media {
+    display: inline-block;
+  }
