@@ -5,11 +5,9 @@
 }
 
 div.game {
-  margin-top:30px;
-  width:85%;
+ margin:30px 7.5% 20px 7.5%;
+ width:85%;
  padding:15px;
- margin-left:7.5%;
- margin-right:7.5%;
  background:white;
  position:relative;
 }
