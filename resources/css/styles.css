@@ -1,15 +1,62 @@
 * {
     margin:0;
     padding:0;
-    font-family:avenir,sans-serif;
+    font-family:avenir, sans-serif;
 }
+
+div.game {
+  margin-top:30px;
+  width:85%;
+ padding:15px;
+ margin-left:7.5%;
+ margin-right:7.5%;
+ background:white;
+ position:relative;
+}
+div .logo {
+  width:10%;
+  height:auto;
+  min-width:40px;
+  min-height:40px;
+  
+}
+section.left {
+  width:50%;
+}
+section.right {
+  width: 45%;
+  right: 0px;
+  position: absolute;
+  top: 0px;
+  padding: 15px;
+}
+div section.right img {
+  right: 0px;
+  width: 100%;
+  margin-right: 5%;
+  position: absolute;
+  /* border: 1px solid black;*/
+}
+.gameName {
+  position: absolute;
+  top: 15px;
+  left: 12%;
+}
+ul {
+  list-style: none;
+}
+ul li span {
+  font-weight: 500;
+}
+
 navbar {
     width: 25%;
     min-width:150px;
     margin:auto;
     border: 1px solid black;
     display: block;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
   }
   navbar ul a {
     text-decoration:none;
