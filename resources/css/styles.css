@@ -34,16 +34,33 @@ navbar {
     background-color: red;
   }
 
-  header img {
+  header#about {
+    border: 1px black solid;
+    padding: 25px;
+    margin: 50px;
+  }
+  header#about img {
     float: right;
   }
 
   content#media ul {
     margin: auto;
+    width: fit-content;
+  }
+  content#media ul a {
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
   content#media ul a li {
     display: inline-block;
   }
-  content#media ul a {
-    padding: 10px;
+  
+
+  footer {
+    position: fixed; 
+    margin-top: 50px; 
+    bottom: 0;
+    width: 100%;
+    text-align: center;
   }
