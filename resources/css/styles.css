@@ -97,6 +97,9 @@ navbar {
     margin-left: 5px;
     margin-right: 5px;
   }
+  content#media ul a:hover {
+    text-decoration: underline;
+  }
   content#media ul a li {
     display: inline-block;
   }
