@@ -12,7 +12,7 @@ ul {
 }
 
 /* PROJECT SECTION */
-section.game {
+.game {
  margin:30px 7.5% 20px 7.5%;
  width:85%;
  padding:15px;
@@ -66,6 +66,10 @@ ul li span {
   .gameName {
     position: static;
     text-align: center;
+  }
+  section.game {
+    margin: 30px 0% 20px 2%;
+    width: 90%;
   }
   .logo {
     display: none;
