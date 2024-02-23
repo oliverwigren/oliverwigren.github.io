@@ -19,17 +19,17 @@ section .logo {
   min-height:40px;
   
 }
-article.left {
+.left {
   width:50%;
 }
-figure.right {
+.right {
   width: 45%;
   right: 0px;
   position: absolute;
   top: 0px;
   padding: 15px;
 }
-section .right img {
+.right img {
   right: 0px;
   width: 100%;
   margin-right: 5%;
@@ -56,14 +56,14 @@ ul li span {
   .logo {
     display: none;
   }
-  .left {
+  article.left {
     width: 100%;
   }
-  .right {
+  figure.right {
     position: static;
     width: 100%;
   }
-  .right img {
+  figure.right img {
     position: static;
   }
 }
