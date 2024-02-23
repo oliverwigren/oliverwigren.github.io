@@ -4,7 +4,7 @@
     font-family:avenir, sans-serif;
 }
 
-div.game {
+section.game {
  margin:30px 7.5% 20px 7.5%;
  width:85%;
  padding:15px;
@@ -12,24 +12,24 @@ div.game {
  position:relative;
  border: 1px solid black;
 }
-div .logo {
+section .logo {
   width:10%;
   height:auto;
   min-width:40px;
   min-height:40px;
   
 }
-section.left {
+article.left {
   width:50%;
 }
-section.right {
+article.right {
   width: 45%;
   right: 0px;
   position: absolute;
   top: 0px;
   padding: 15px;
 }
-div section.right img {
+section article.right img {
   right: 0px;
   width: 100%;
   margin-right: 5%;
@@ -48,8 +48,28 @@ ul li span {
   font-weight: 500;
 }
 
+@media screen and (max-width: 1000px) {
+  .gameName {
+    position: static;
+    text-align: center;
+  }
+  .logo {
+    display: none;
+  }
+  .left {
+    width: 100%;
+  }
+  .right {
+    position: static;
+    width: 100%;
+  }
+  .right img {
+    position: static;
+  }
+}
+
 nav {
-    width: 25rem;
+    width: 20rem;
     min-width:150px;
     margin:auto;
     border: 1px solid black;
@@ -107,9 +127,8 @@ nav {
     text-decoration: none;
   }
   
-
+  /* FOOTER */
   footer {
-     
     margin-top: 50px; 
     bottom: 0;
     width: 100%;
