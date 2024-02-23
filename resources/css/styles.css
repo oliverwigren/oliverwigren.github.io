@@ -58,6 +58,9 @@ section .logo {
   top: 15px;
   left: 12%;
 }
+h1#title {
+  cursor: pointer;
+}
 ul li span {
   font-weight: 500;
 }
