@@ -91,8 +91,9 @@ nav {
   }*/
 
   div#media ul {
-    margin: auto;
-    width: fit-content;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
   }
   div#media ul li a {
     padding: 10px;
@@ -102,8 +103,8 @@ nav {
   div#media ul li a:hover {
     text-decoration: underline;
   }
-  div#media ul li a{
-    display: inline-block;
+  div#media ul li a {
+    text-decoration: none;
   }
   
 
