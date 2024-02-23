@@ -22,14 +22,14 @@ section .logo {
 article.left {
   width:50%;
 }
-article.right {
+figure.right {
   width: 45%;
   right: 0px;
   position: absolute;
   top: 0px;
   padding: 15px;
 }
-section article.right img {
+section .right img {
   right: 0px;
   width: 100%;
   margin-right: 5%;
