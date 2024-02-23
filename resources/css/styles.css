@@ -48,8 +48,8 @@ ul li span {
   font-weight: 500;
 }
 
-navbar {
-    width: 25%;
+nav {
+    width: 25rem;
     min-width:150px;
     margin:auto;
     border: 1px solid black;
@@ -57,17 +57,17 @@ navbar {
     margin-bottom: 30px;
     margin-top: 30px;
   }
-  navbar ul a {
+  nav ul li a {
     text-decoration:none;
     color: black;
   }
-  navbar ul {
+  nav ul {
     display: flex;
     justify-content: center;
     align-content: center;
     list-style: none;
   }
-  navbar ul li {
+  nav ul li {
     text-align: center;
     width: 60px;
     height: 30px;
@@ -76,7 +76,7 @@ navbar {
     border: 1px solid black;
     margin: 5px;
   }
-  navbar ul li#active {
+  nav ul li#active {
     background-color: red;
   }
 
@@ -84,24 +84,25 @@ navbar {
     border: 1px black solid;
     padding: 25px;
     margin: 50px;
+    text-align: center;
   }
-  header#about img {
+  /*header#about img {
     float: right;
-  }
+  }*/
 
-  content#media ul {
+  div#media ul {
     margin: auto;
     width: fit-content;
   }
-  content#media ul a {
+  div#media ul li a {
     padding: 10px;
     margin-left: 5px;
     margin-right: 5px;
   }
-  content#media ul a:hover {
+  div#media ul li a:hover {
     text-decoration: underline;
   }
-  content#media ul a li {
+  div#media ul li a{
     display: inline-block;
   }
   
