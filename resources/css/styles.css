@@ -1,9 +1,17 @@
+/* GENERAL */
 * {
     margin:0;
     padding:0;
     font-family:avenir, sans-serif;
 }
+a {
+  color: blue;
+}
+ul {
+  list-style: none;
+}
 
+/* PROJECT SECTION */
 section.game {
  margin:30px 7.5% 20px 7.5%;
  width:85%;
@@ -21,6 +29,15 @@ section .logo {
 }
 .left {
   width:50%;
+}
+.left a {
+  text-decoration: none;
+}
+.left a:visited {
+  color: blue;
+}
+.left a:hover {
+  text-decoration: underline;
 }
 .right {
   width: 45%;
@@ -40,9 +57,6 @@ section .logo {
   position: absolute;
   top: 15px;
   left: 12%;
-}
-ul {
-  list-style: none;
 }
 ul li span {
   font-weight: 500;
@@ -68,6 +82,7 @@ ul li span {
   }
 }
 
+/* NAVBAR */
 nav {
     width: 20rem;
     min-width:150px;
@@ -110,6 +125,7 @@ nav {
     float: right;
   }*/
 
+  /* LINKS */
   div#media ul {
     width: 100%;
     display: inline-flex;
