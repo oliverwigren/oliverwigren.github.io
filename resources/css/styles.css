@@ -140,6 +140,14 @@ nav {
   #work {
     visibility: hidden;
   }
+  #c-button {
+    width: 20%;
+    height: 3rem;
+    font-size: 1rem;
+  }
+  #c-button {
+    padding: 10px;
+  }
 
   /* LINKS */
   div#media ul {

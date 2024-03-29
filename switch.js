@@ -5,7 +5,7 @@ const workDiv = document.getElementById("work");
 
 let bool = true;
 
-const switchDiv = (bool) => {
+const switchDiv = () => {
   if (bool) {
     eduDiv.style.visibility = "hidden";
     workDiv.style.visibility = "visible";
