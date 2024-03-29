@@ -124,14 +124,16 @@ nav {
   }
 
   header#about {
-    border: 1px black solid;
     padding: 25px;
-    margin: 50px;
-    text-align: center;
   }
   /*header#about img {
     float: right;
   }*/
+  .contactbox {
+    border: 1px black solid;
+    margin: 50px;
+    text-align: center;
+  }
 
   /* LINKS */
   div#media ul {
