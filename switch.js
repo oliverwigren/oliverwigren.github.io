@@ -1,6 +1,4 @@
-switchDiv()
-
-const button = document.getElementById("switch");
+const button = document.getElementById("c-button");
 
 const eduDiv = document.getElementById("education");
 const workDiv = document.getElementById("work");
