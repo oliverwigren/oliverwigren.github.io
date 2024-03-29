@@ -1,15 +1,17 @@
+switchDiv()
+
 const button = document.getElementById("switch");
 
 const eduDiv = document.getElementById("education");
 const workDiv = document.getElementById("work");
 
 const switchDiv = () => {
-  if ((eduDiv.style.display = "hidden")) {
+  if ((eduDiv.style.display = "none")) {
     eduDiv.style.display = "block";
-    workDiv.style.display = "block";
+    workDiv.style.display = "none";
   } else {
     workDiv.style.display = "block";
-    eduDiv.style.display = "hidden";
+    eduDiv.style.display = "none";
   }
 };
 
