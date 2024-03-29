@@ -135,10 +135,10 @@ nav {
     text-align: center;
   }
   #education {
-    display: block;
+    visibility: visible;
   }
   #work {
-    display: hidden;
+    visibility: hidden;
   }
 
   /* LINKS */

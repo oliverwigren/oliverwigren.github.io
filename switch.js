@@ -7,12 +7,12 @@ let bool = true;
 
 const switchDiv = (bool) => {
   if (bool) {
-    eduDiv.style.display = "none";
-    workDiv.style.display = "block";
+    eduDiv.style.visibility = "hidden";
+    workDiv.style.visibility = "visible";
     bool = false;
   } else {
-    eduDiv.style.display = "block";
-    workDiv.style.display = "none";
+    eduDiv.style.visibility = "visible";
+    workDiv.style.visibility = "hidden";
     bool = true;
   }
 };
