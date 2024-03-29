@@ -134,6 +134,12 @@ nav {
     margin: 50px;
     text-align: center;
   }
+  #education {
+    display: block;
+  }
+  #work {
+    display: hidden;
+  }
 
   /* LINKS */
   div#media ul {
