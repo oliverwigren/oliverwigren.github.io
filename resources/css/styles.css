@@ -139,6 +139,11 @@ nav {
   }
   #work {
     visibility: hidden;
+    position: relative;
+    top: -100px;
+  }
+  .switchElement {
+    margin-top: 10px;
   }
   #c-button {
     width: 20%;
